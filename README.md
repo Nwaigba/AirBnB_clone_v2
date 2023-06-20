@@ -1,4 +1,30 @@
-<center> <h1>HBNB - The Console</h1> </center>
+# 0x02. AirBnB clone - MySQL
+
+# Background Context
+Environment variables will be your best friend for this project!
+
+HBNB_ENV: running environment. It can be “dev” or “test” for the moment (“production” soon!)
+HBNB_MYSQL_USER: the username of your MySQL
+HBNB_MYSQL_PWD: the password of your MySQL
+HBNB_MYSQL_HOST: the hostname of your MySQL
+HBNB_MYSQL_DB: the database name of your MySQL
+HBNB_TYPE_STORAGE: the type of storage used. It can be “file” (using FileStorage) or db (using DBStorage)
+
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# General
+What is Unit testing and how to implement it in a large project
+What is *args and how to use it
+What is **kwargs and how to use it
+How to handle named arguments in a function
+How to create a MySQL database
+How to create a MySQL user and grant it privileges
+What ORM means
+How to map a Python Class to a MySQL table
+How to handle 2 different storage engines with the same codebase
+How to use environment variables
+
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
 
@@ -8,7 +34,7 @@ This repository contains the initial stage of a student project to build a clone
 
 | Tasks | Files | Description |
 | ----- | ----- | ------ |
-| 0: Authors/README File | [AUTHORS](https://github.com/justinmajetich/AirBnB_clone/blob/dev/AUTHORS) | Project authors |
+| 0: Authors/README File | [AUTHORS](https://github.com/justinmajetich/AirBnB_clone/blob/dev/AUTHORS) (https://github.com/Nwaigba/AirBnB_clone_v2) | Project authors |
 | 1: Pep8 | N/A | All code is pep8 compliant|
 | 2: Unit Testing | [/tests](https://github.com/justinmajetich/AirBnB_clone/tree/dev/tests) | All class-defining modules are unittested |
 | 3. Make BaseModel | [/models/base_model.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/base_model.py) | Defines a parent class to be inherited by all model classes|
